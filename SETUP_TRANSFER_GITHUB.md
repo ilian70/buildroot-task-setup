@@ -3,7 +3,7 @@
 ## Overview
 This guide shows how to set up a complete buildroot environment using:
 
-1. **buildroot-transfer.tar.gz** - Buildroot configuration and board files
+1. **buildroot-transfer.zip** - Buildroot configuration and board files
 
 2. **buildroot-task from GitHub** - Fresh clone of project source code
 
