@@ -61,13 +61,13 @@ Your final structure will be:
 
 ## Part 2: Extract Transfer Tarball (Into Existing Buildroot)
 
-Download the `buildroot-transfer.tar.gz` file and extract it:
+Download the `buildroot-transfer.zip` file and extract it:
 
 ```bash
 cd ~/buildroot-workspace
 
 # Extract the tarball (will merge with existing buildroot directory)
-tar xzf /path/to/buildroot-transfer.tar.gz
+tar xzf /path/to/buildroot-transfer.zip
 
 # Verify extraction
 ls -la
@@ -422,7 +422,7 @@ mkdir -p "$WORKSPACE"
 cd "$WORKSPACE"
 
 # Extract transfer tarball
-tar xzf /path/to/buildroot-transfer.tar.gz
+tar xzf /path/to/buildroot-transfer.zip
 
 # Remove extracted source, clone from GitHub instead
 rm -rf buildroot-task
